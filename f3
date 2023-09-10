@@ -11,9 +11,9 @@ elif [[ $age -ge 13 && $age -le 19 ]];
 then
 	echo "teenage"
 
-elif [[ $age -gt 40 ]];
+elif [[ $age -gt 60 ]];
 then 
-	echo "adult"
+	echo "oldage"
 else
 	echo "na"
 fi
