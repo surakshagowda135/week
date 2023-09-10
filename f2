@@ -3,9 +3,9 @@
 echo " Enter salary "
 read salary
 
-if [[ $salary -lt 30000 ]];
+if [[ $salary -le 30000 ]];
 then 
-	echo " No tax "
+	echo " 5% tax added "
 
 elif [[ $salary -gt 30000 && $salary -lt 45000 ]];
 then
